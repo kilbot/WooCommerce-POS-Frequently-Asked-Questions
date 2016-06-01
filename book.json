@@ -1,3 +1,14 @@
 {
-  "plugins": ["theme-faq"]
+  "plugins": ["theme-faq", "ga", "versions", "disqus"],
+  "pluginsConfig": {
+      "ga": {
+          "token": "UA-65534-23"
+      },
+      "versions": {
+        "type": "branches"
+      },
+      "disqus": {
+        "shortName": "woocommercepos"
+      }
+  }
 }
