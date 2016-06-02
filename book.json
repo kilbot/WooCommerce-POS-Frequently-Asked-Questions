@@ -11,5 +11,6 @@
       "disqus": {
         "shortName": "woocommercepos"
       }
-  }
+  },
+  "root": "./faqs"
 }
