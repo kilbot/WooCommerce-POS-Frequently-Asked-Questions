@@ -14,11 +14,15 @@ The following browsers have been tested using [Browserstack](browserstack.com):
 *   Android Browser 4.4+
 *   Microsoft Edge
 
-![compatibility-chart](http://woopos.com.au/wp-content/uploads/2015/06/compatibility-chart.png) WooCommerce POS uses IndexedDB to persist the product database on your computer or device. [IndexedDB](http://www.w3.org/TR/IndexedDB/) is currently a 'Candidate Recommendation' specification by the W3C and is not implemented by all browsers. To see if your browser is compatible please check [caniuse.com](http://caniuse.com/indexeddb). WooCommerce POS also uses the [Flexbox Layout](http://www.w3.org/TR/2015/WD-css-flexbox-1-20150514/) module, currently a W3C Last Call Working Draft. To see if your browser is compatible please check [caniuse.com](http://caniuse.com/flexbox).
+![compatibility-chart](http://woopos.com.au/wp-content/uploads/2015/06/compatibility-chart.png) 
+
+WooCommerce POS uses IndexedDB to persist the product database on your computer or device. [IndexedDB](http://www.w3.org/TR/IndexedDB/) is currently a 'Candidate Recommendation' specification by the W3C and is not implemented by all browsers. To see if your browser is compatible please check [caniuse.com](http://caniuse.com/indexeddb). 
+
+WooCommerce POS also uses the [Flexbox Layout](http://www.w3.org/TR/2015/WD-css-flexbox-1-20150514/) module, currently a W3C Last Call Working Draft. To see if your browser is compatible please check [caniuse.com](http://caniuse.com/flexbox).
 
 ### Recommended Browser
 
-![Chrome Canary](http://woopos.com.au/wp-content/uploads/2015/05/chrome-canary-512-150x150.png)The recommended browser for WooCommerce POS is [Google Chrome Canary](https://www.google.com/chrome/browser/canary.html). Canary is a 'beta' version of Chrome which gives you access to the very latest web technologies. It is recommended that you install Canary and use it for WooCommerce POS, but you should still keep your current browser for normal web surfing.
+<span style="float:left;margin-right:10px;width:100px;">![Chrome Canary](http://woopos.com.au/wp-content/uploads/2015/05/chrome-canary-512-150x150.png)</span> The recommended browser for WooCommerce POS is [Google Chrome Canary](https://www.google.com/chrome/browser/canary.html). Canary is a 'beta' version of Chrome which gives you access to the very latest web technologies. It is recommended that you install Canary and use it for WooCommerce POS, but you should still keep your current browser for normal web surfing.
 
 ### iOS
 

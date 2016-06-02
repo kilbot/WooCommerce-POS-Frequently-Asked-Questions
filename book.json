@@ -1,5 +1,6 @@
 {
-  "plugins": ["theme-faq", "ga", "versions", "disqus"],
+  "title": "Frequently Asked Questions",
+  "plugins": ["theme-faq", "ga", "versions", "disqus", "-sharing"],
   "pluginsConfig": {
       "ga": {
           "token": "UA-65534-23"
