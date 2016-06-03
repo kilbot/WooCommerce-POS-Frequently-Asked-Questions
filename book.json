@@ -3,12 +3,14 @@
   "plugins": [
     "theme-faq",
     "ga",
-    "versions",
-    "@kilbot/gitbook-plugin-disqus",
     "-sharing",
     {
       "name": "disqus",
       "version": "git+https://github.com/kilbot/plugin-disqus.git"
+    },
+    {
+      "name": "versions",
+      "version": "git+https://github.com/kilbot/plugin-versions.git"
     }
   ],
   "pluginsConfig": {
