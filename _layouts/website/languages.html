@@ -4,11 +4,60 @@
   <title>Frequently Asked Questions - WooCommerce POS</title>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
+        integrity="sha384-I6JCnqxMbC2DuiHjsoCiLa15NVbKRf8/ooANRLsXD87zD2dVqzlz6Oqjvj470ztk"
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ "style.css"|resolveAsset }}">
 </head>
 <body>
 
-  <h3>Select a language</h3>
-  <ul class="languages"></ul>
+  <nav class="faq-navbar navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ basePath }}">WooCommerce POS FAQ</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://wcpos.com.au">Return to Main Site</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="faq-header">
+    <div class="container">
+      <h1>Frequently Asked Questions</h1>
+    </div>
+  </div>
+  <div class="faq-page-container">
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Select a language</h3>
+      </div>
+      <div class="list-group">
+        <ul class="languages"></ul>
+      </div>
+    </div>
+
+    <div class="faq-page-footer">
+      <a href="https://www.gitbook.com" target="_blank">{{ "GITBOOK_LINK"|t }}</a> ·
+      <span>Last edit {{ file.mtime|date('MMM Do YY') }}</span>
+    </div>
+  </div>
 
   <script src="{{ 'gitbook.js'|resolveAsset }}"></script>
   <script>
@@ -16,14 +65,15 @@
       $.getJSON('/gitbook/api/versions/branches', function (versions) {
         var languages = {{ languages.list|dump|safe }};
         var version = $.map(versions, function(o) { if(o["current"]) return o["name"]; }).shift();
-        var ul = $('.languages');
+        var container = $('.list-group');
 
         $.each(languages, function(index, lang){
-          ul.append('<li><a href="/v/' + version + '/' + lang.id + '/">' + lang.title + '</a></li>');
+          container.append('<a class="list-group-item" href="/v/' + version + '/' + lang.id + '/">' + lang.title + '</a>');
         });
       });
     });
   </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 </body>
 </html>
