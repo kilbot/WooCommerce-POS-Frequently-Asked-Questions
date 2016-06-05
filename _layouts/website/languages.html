@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Frequently Asked Questions - WooCommerce POS</title>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <h3>Select a language</h3>
+  <ul class="languages"></ul>
+
+  <script src="{{ 'gitbook.js'|resolveAsset }}"></script>
+  <script>
+    require(['gitbook', 'jQuery'], function (gitbook, $) {
+      $.getJSON('/gitbook/api/versions/branches', function (versions) {
+        var languages = {{ languages.list|dump|safe }};
+        var version = $.map(versions, function(o) { if(o["current"]) return o["name"]; }).shift();
+        var ul = $('.languages');
+
+        $.each(languages, function(index, lang){
+          ul.append('<li><a href="/v/' + version + '/' + lang.id + '/">' + lang.title + '</a></li>');
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>

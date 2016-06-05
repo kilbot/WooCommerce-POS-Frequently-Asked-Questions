@@ -14,16 +14,16 @@
     }
   ],
   "pluginsConfig": {
-      "ga": {
-          "token": "UA-65534-23"
-      },
-      "versions": {
-        "type": "branches"
-      },
-      "disqus": {
-        "shortName": "woocommercepos",
-        "container": ".faq-page-container .panel-body"
-      }
-  },
-  "root": "./faqs"
+    "ga": {
+        "token": "UA-65534-23"
+    },
+    "versions": {
+      "type": "branches",
+      "container": ".faq-header .container"
+    },
+    "disqus": {
+      "shortName": "woocommercepos",
+      "container": ".faq-page-container .panel-body"
+    }
+  }
 }
