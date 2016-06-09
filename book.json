@@ -2,7 +2,6 @@
   "title": "Frequently Asked Questions",
   "plugins": [
     "theme-faq",
-    "ga",
     "-sharing",
     {
       "name": "disqus",
@@ -14,9 +13,6 @@
     }
   ],
   "pluginsConfig": {
-    "ga": {
-        "token": "UA-65534-23"
-    },
     "versions": {
       "type": "branches",
       "container": ".faq-header .container"
