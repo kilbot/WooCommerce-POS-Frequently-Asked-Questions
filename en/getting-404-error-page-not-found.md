@@ -1,4 +1,5 @@
 ---
+title: Why am I getting 404 Error – Page Not Found?
 tags: 404 error, page not found, permalinks
 description: The WooCommerce REST API requires 'pretty' permalinks to work correctly.
 ---

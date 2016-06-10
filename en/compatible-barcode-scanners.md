@@ -1,9 +1,10 @@
 ---
+title: What barcode scanners are compatible with WooCommerce POS?
 tags: barcode, barcode scanning, hardware, peripherals
 description: 
 ---
 
-Any barcode scanner should work with WooCommerce POS, scanners simply output the serial number to the computer just like a (really fast) keyboard. For more information about how to set and search barcodes in WooCommerce POS, please read the [Barcode Scanning documentation](http://woopos.com.au/docs/barcode-scanning/). 
+Any barcode scanner should work with WooCommerce POS, scanners simply output the serial number to the computer just like a (really fast) keyboard. For more information about how to set and search barcodes in WooCommerce POS, please read the [Barcode Scanning documentation](http://wcpos.com/docs/barcode-scanning/). 
 
 Version 0.4 of WooCommerce POS will support hotkeys - this means that if you set a custom prefix on the barcode scanner the POS will automatically know you are scanning a product without having to manually focus on the search field. For this functionality to work you may need a scanner that supports 'custom prefixes'. 
 

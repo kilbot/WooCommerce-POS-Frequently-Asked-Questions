@@ -3,6 +3,7 @@
   "plugins": [
     "theme-faq",
     "-sharing",
+    "image-captions",
     {
       "name": "disqus",
       "version": "git+https://github.com/kilbot/plugin-disqus.git"

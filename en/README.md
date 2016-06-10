@@ -2,6 +2,6 @@
 search: false
 ---
 
-# faq.wcpos.com.au
+# faq.wcpos.com
 
 Frequently asked questions for WooCommerce POS

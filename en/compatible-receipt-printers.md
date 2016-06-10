@@ -1,4 +1,5 @@
 ---
+title: What receipt printers are compatible with WooCommerce POS?
 tags: cash drawer, hardware, peripherals, printer, receipt
 description: 
 ---
@@ -24,7 +25,7 @@ Most receipt printers will include a RJ11 or RJ12 socket for triggering a cash
 
 ### Customised Receipts
 
-The template for WooCommerce POS receipts can be customised by placing a new template file in your WordPress theme directory. The directory structure should be `/wp-content/themes/YOUR-THEME/woocommerce-pos/print/receipt.php`. For more information on customising receipts please read the [Receipt documentation](/docs/receipts/).
+The template for WooCommerce POS receipts can be customised by placing a new template file in your WordPress theme directory. The directory structure should be `/wp-content/themes/YOUR-THEME/woocommerce-pos/print/receipt.php`. For more information on customising receipts please read the [Receipt documentation](http://wcpos.com/docs/receipts/).
 
 ### Hacking Receipt Printers
 

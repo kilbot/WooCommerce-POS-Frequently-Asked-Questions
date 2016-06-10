@@ -1,4 +1,5 @@
 ---
+title: How do I get taxes to show in the POS?
 tags: base location, store location, tax, tax rates
 description: By default the POS uses the store location for the tax, so you need to have a tax rate set up which matches your Base Location.
 ---
