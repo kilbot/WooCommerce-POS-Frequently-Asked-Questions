@@ -1,8 +1,9 @@
 {
   "title": "Frequently Asked Questions",
   "plugins": [
-    "theme-faq",
     "-sharing",
+    "-search",
+    "theme-faq",
     "image-captions",
     {
       "name": "disqus",

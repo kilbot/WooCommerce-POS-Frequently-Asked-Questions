@@ -1,5 +1,5 @@
 ---
-title: 
+title: Why aren’t my products showing?
 tags: authentication, orphaned variations, orphans, support, system status
 description: First check the POS system status. If you are still having problems send a message using the support form.
 ---
