@@ -3,8 +3,11 @@
   "plugins": [
     "-sharing",
     "-search",
-    "theme-faq",
     "image-captions",
+    {
+      "name": "theme-faq",
+      "version": "git+https://github.com/kilbot/theme-faq.git"
+    },
     {
       "name": "disqus",
       "version": "git+https://github.com/kilbot/plugin-disqus.git"
