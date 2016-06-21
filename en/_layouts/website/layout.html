@@ -2,7 +2,7 @@
 
 {% block style %}
 {{ super() }}
- <link rel="stylesheet" href="../_assets/website/style.css">
+<link rel="stylesheet" href="{{ '../_assets/website/style.css'|resolveAsset }}">
 {% endblock %}
 
 {% block javascript %}
@@ -16,6 +16,6 @@
   ga('send', 'pageview');
 
 </script>
-<!-- <script src="../_assets/website/script.js"></script> -->
+<!-- <script src=""{{ '../_assets/website/script.js'|resolveAsset }}""></script> -->
 {{ super() }}
 {% endblock %}
