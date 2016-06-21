@@ -16,4 +16,8 @@ This could be caused by:
 Please note that WooCommerce POS is just a frontend for the WC REST API. 
 Once the order is sent to the server the POS plugin has little impact on the time it takes to complete. 
 
+The following plugins are known to cause problems with Time Out error:
+
+* [Xero](https://www.woothemes.com/products/xero/)
+
 For more information and some tips for troubleshooting, please see the [POS Performance doc](http://wcpos.com/docs/support/performance/).
