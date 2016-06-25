@@ -19,3 +19,9 @@
 <!-- <script src=""{{ '../_assets/website/script.js'|resolveAsset }}""></script> -->
 {{ super() }}
 {% endblock %}
+
+{% block faq_footer %}
+<div class="faq-page-footer">
+  <span>Last edit {{ file.mtime|date('MMMM Do, YYYY') }}</span>
+</div>
+{% endblock %}
