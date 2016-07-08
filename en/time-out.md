@@ -19,5 +19,6 @@ Once the order is sent to the server the POS plugin has little impact on the tim
 The following plugins are known to cause problems with Time Out error:
 
 * [Xero](https://www.woothemes.com/products/xero/)
+* [WooCommerce PDF Invoices & Packing Slips](https://wordpress.org/plugins/woocommerce-pdf-invoices-packing-slips/)
 
 For more information and some tips for troubleshooting, please see the [POS Performance doc](http://wcpos.com/docs/support/performance/).

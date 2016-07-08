@@ -4,7 +4,7 @@ tags: android, browser, ios, ipad, mac, tablet, windows
 description: WooCommerce POS requires a modern browsers such as Chrome on the desktop or Safari 8 on iOS.
 ---
 
-The following browsers have been tested using [Browserstack](browserstack.com):
+The following browsers have been tested using [Browserstack](http://browserstack.com):
 
 *   [Chrome Canary](https://www.google.com/chrome/browser/canary.html) (recommended)
 *   Chrome 31+
