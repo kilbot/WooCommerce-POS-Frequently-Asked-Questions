@@ -11,7 +11,7 @@ This could be caused by:
 * **Your internet connection**, e.g.: slow connection, no connection
 * **Your server**, e.g.: high load, server down
 * **Your gateway**, e.g.: connection to gateway server, fatal PHP error
-* **Third party plugins**, e.g.: connection to a third party service such as Xero
+* **Your plugins**, e.g.: connection to a third party service such as Xero
 
 Please note that WooCommerce POS is just a frontend for the WC REST API. 
 Once the order is sent to the server the POS plugin has little impact on the time it takes to complete. 

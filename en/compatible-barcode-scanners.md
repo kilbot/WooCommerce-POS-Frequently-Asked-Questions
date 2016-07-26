@@ -15,4 +15,6 @@ For other barcode scanner recommendations please read the reviews below:
 *   Barcode scanners on [Newegg](http://www.newegg.com/Barcode-Scanner/SubCategory/ID-583?Order=RATING)
 *   Barcode scanners on [Amazon](http://amzn.to/1psdAXr)
 
-**If any WooCommerce POS users have good or bad experiences with a scanner please post them in the comments below, the rest of the community will thank you for your advice!**
+{% hint style='info' %}
+If any WooCommerce POS users have good or bad experiences with a scanner please post them in the comments below, the rest of the community will thank you for your advice!
+{% endhint %}

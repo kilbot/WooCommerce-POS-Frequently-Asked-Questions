@@ -17,7 +17,9 @@ Below is a brief list of thermal receipt printers that _should_ function with Wo
     *   [Epson TM-T88V-i Intelligent Printer](http://www.epson.com.au/pos/products/receiptprinters/DisplayMain.asp?id=tmt88v-i)  
         _should work with iPads, though untested at this stage_
 
-**If any WooCommerce POS users have good or bad experiences with a receipt printer please post them in the comments below, the rest of the community will thank you for your advice!**
+{% hint style='info' %}
+If any WooCommerce POS users have good or bad experiences with a receipt printer please post them in the comments below, the rest of the community will thank you for your advice!
+{% endhint %}
 
 ### Cash Drawers
 
