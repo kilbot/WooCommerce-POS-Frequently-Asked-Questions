@@ -3,6 +3,7 @@
   "plugins": [
     "-sharing",
     "-search",
+    "ga",
     "image-captions",
     {
       "name": "theme-faq",
@@ -36,6 +37,9 @@
     },
     "sitemap": {
       "hostname": "http://faq.wcpos.com"
+    },
+    "ga": {
+      "token": "UA-65534-23"
     }
   }
 }
