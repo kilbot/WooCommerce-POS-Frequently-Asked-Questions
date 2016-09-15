@@ -4,7 +4,7 @@ title: Why am I getting a Time Out error?
 
 WooCommerce POS will give a timeout error if an order takes longer than 1 minute to complete. 
 
-![](http://wcpos.com/wp-content/uploads/2016/06/time-out-modal.png "Time Out Modal")
+![](https://wcpos.com/wp-content/uploads/2016/06/time-out-modal.png "Time Out Modal")
 
 This could be caused by:
 

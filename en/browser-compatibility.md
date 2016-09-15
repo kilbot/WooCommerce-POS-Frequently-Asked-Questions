@@ -14,7 +14,7 @@ The following browsers have been tested using [Browserstack](http://browserstack
 *   Android Browser 4.4+
 *   Microsoft Edge
 
-![compatibility-chart](http://wcpos.com/wp-content/uploads/2015/06/compatibility-chart.png "Browsers compatible with WooCommerce POS")
+![compatibility-chart](https://wcpos.com/wp-content/uploads/2015/06/compatibility-chart.png "Browsers compatible with WooCommerce POS")
 
 ### IndexedDB
 
@@ -30,7 +30,7 @@ To see if your browser is compatible please check [caniuse.com](http://caniuse.c
 Some browsers will disable access to IndexedDB when [Private Browsing](https://en.wikipedia.org/wiki/Privacy_mode) is enabled. 
 This will result in an IndexedDB Error shown below. 
 
-![IndexedDB Error](http://wcpos.com/wp-content/uploads/2016/07/indexedDB-error-e1469516372906.png "Example of indexedDB error due to Private Browsing")
+![IndexedDB Error](https://wcpos.com/wp-content/uploads/2016/07/indexedDB-error-e1469516372906.png "Example of indexedDB error due to Private Browsing")
 
 {% hint style='info' %}
 Adding a webpage to your Home Screen in iOS will force it to open in a Private session. 

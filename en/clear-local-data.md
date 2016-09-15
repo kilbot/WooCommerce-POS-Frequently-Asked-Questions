@@ -8,10 +8,10 @@ WooCommerce POS stores data locally (eg: a copy of your products), this improves
 
 To clear the local data, please go to your POS Support page. 
 
-![An example of clearing Product data using the POS Support page](http://wcpos.com/wp-content/uploads/2015/07/clear-local-storage.png "An example of clearing product data using the POS Support page")
+![An example of clearing Product data using the POS Support page](https://wcpos.com/wp-content/uploads/2015/07/clear-local-storage.png "An example of clearing product data using the POS Support page")
 
 ### indexedDB errors
 
 If you are experiencing POS errors you may need to completely clear all local data, this can be done using the Clear Browser Data option in your browser preferences. 
 
-![An example of clearing all browser data in Chrome](http://wcpos.com/wp-content/uploads/2015/07/clear-browser-data.png "An example of clearing all browser data in Chrome")
+![An example of clearing all browser data in Chrome](https://wcpos.com/wp-content/uploads/2015/07/clear-browser-data.png "An example of clearing all browser data in Chrome")

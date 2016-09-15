@@ -12,7 +12,7 @@ Clicking on the 'i' info icon will display the raw output from the server.
 In the example below, we can see there is a PHP Notice from WordPress. 
 The notice references the line of code which is causing the problem.
 
-![Syntax Error](http://wcpos.com/wp-content/uploads/2016/06/syntax-error-unexpected-token-in-json.png "Example of SyntaxError modal - Unexpected token")
+![Syntax Error](https://wcpos.com/wp-content/uploads/2016/06/syntax-error-unexpected-token-in-json.png "Example of SyntaxError modal - Unexpected token")
 
 In the above example you can see that the error occurs in the `example-plugin/example.php` file at `line 15`. 
 If you are seeing a similar error to the example above, please do the following:
@@ -25,7 +25,7 @@ If you are seeing a similar error to the example above, please do the following:
 
 In some cases the server will return nothing at all, this results in an `Unexpected end of input` with no extra information. 
 
-![Syntax Error](http://wcpos.com/wp-content/uploads/2016/06/syntax-error-unexpected-end.png "Example of SyntaxError modal - Unexpected end")
+![Syntax Error](https://wcpos.com/wp-content/uploads/2016/06/syntax-error-unexpected-end.png "Example of SyntaxError modal - Unexpected end")
 
 This occurs if the [PHP error_reporting](http://php.net/manual/en/function.error-reporting.php) is disabled. 
 In order to see the error message you should temporarily enable error reporting by setting [`WP_DEBUG`](https://codex.wordpress.org/WP_DEBUG) to `true` in your `wp-config.php` file. 
