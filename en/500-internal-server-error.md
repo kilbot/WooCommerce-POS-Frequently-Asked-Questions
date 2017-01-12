@@ -6,7 +6,7 @@ description: A 500 Internal Server Error is a generic server error, usually caus
 ![500 Internal Server Error](https://wcpos.com/wp-content/uploads/2017/01/500-internal-server-error.png "Example of Internal Server Error message")
 
 A 500 Internal Server Error is a generic server error. 
-If you are seeing this error in WooCommerce POS it usually indicts a conflict with another plugin, or your theme. 
+If you are seeing this error in WooCommerce POS it usually indicates a conflict with another plugin or your theme. 
 
 To troubleshoot this issue please do the following:
 
@@ -33,7 +33,7 @@ define( 'WP_DEBUG_DISPLAY', true );
 
 ### Deactivate all plugins and themes
 
-If no error message can be found, you will need to find the source by first removing all potential sources of conflicts, then systematically adding them back - one at a time.
+If no error message can be found, you will need to remove all potential sources of conflicts, then systematically add them back - one at a time.
 
 1. Deactivate all plugin, except WooCommerce and WooCommerce POS.
 2. Activate the default WordPress theme, eg: `twentyseventeen`.
@@ -41,4 +41,4 @@ If no error message can be found, you will need to find the source by first remo
 4. Activate your theme, check the POS again to confirm it is working correctly.
 5. Then activate each plugin, one-by-one, checking the POS after each activation.
 
-Once you have narrowed down the possibilities for the error, please contact [support@wcpos.com](mailto:support@wcpos.com) with your results.
+Once you have narrowed down the potential source of the error, please contact [support@wcpos.com](mailto:support@wcpos.com) with your results.
