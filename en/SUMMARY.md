@@ -15,6 +15,7 @@
 * [Why am I getting 404 Error – Page Not Found?](getting-404-error-page-not-found.md)
 * [Why am I getting a Time Out error?](time-out.md)
 * [Why am I getting a SyntaxError?](syntax-error.md)
+* [Why am I getting a 500 Internal Server Error?](500-internal-server-error.md)
 
 ### Settings
 * [Why aren't my settings saving?](settings-saving.md)
