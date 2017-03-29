@@ -18,5 +18,9 @@
 * [Why am I getting a 500 Internal Server Error?](500-internal-server-error.md)
 * [Why am I getting an IndexedDB Error?](indexeddb-error.md)
 
+### Features
+* [Can I have dynamic pricing?](dynamic-pricing.md)
+* [Can I have multiple inventories?](multi-inventory.md)
+
 ### Settings
 * [Why aren't my settings saving?](settings-saving.md)
