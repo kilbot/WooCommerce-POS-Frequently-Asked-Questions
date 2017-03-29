@@ -2,7 +2,7 @@
 title: Can I have dynamic pricing?
 ---
 
-Dynamic pricing allows store owners to set product discounts based on a set of rules. 
+_Dynamic pricing_ allows store owners to set product discounts based on a set of rules. 
 For example, buy 10 or more and receive a discount, or gold members receive a discount etc. 
 These rules are usually configured using a third party plugin such as [WooCommerce Dynamic Pricing](https://woocommerce.com/products/dynamic-pricing/). 
 
