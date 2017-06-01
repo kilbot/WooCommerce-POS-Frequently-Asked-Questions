@@ -19,5 +19,8 @@
 * [Why am I getting an IndexedDB Error?](indexeddb-error.md)
 * [Why am I getting an Exceeded Quota Error?](exceeded-quota-error.md)
 
+### Integrations
+* [Which payment gateways are compatible with WooCommerce POS?](payment-gateways.md)
+
 ### Settings
 * [Why aren't my settings saving?](settings-saving.md)
