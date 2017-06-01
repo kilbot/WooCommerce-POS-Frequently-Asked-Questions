@@ -19,7 +19,8 @@
 * [Why am I getting an IndexedDB Error?](indexeddb-error.md)
 * [Why am I getting an Exceeded Quota Error?](exceeded-quota-error.md)
 
-### Features
+### Integrations
+* [Which payment gateways are compatible with WooCommerce POS?](payment-gateways.md)
 * [Can I have dynamic pricing?](dynamic-pricing.md)
 * [Can I have multiple inventories?](multi-inventory.md)
 
