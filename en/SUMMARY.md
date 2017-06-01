@@ -17,6 +17,7 @@
 * [Why am I getting a SyntaxError?](syntax-error.md)
 * [Why am I getting a 500 Internal Server Error?](500-internal-server-error.md)
 * [Why am I getting an IndexedDB Error?](indexeddb-error.md)
+* [Why am I getting an Exceeded Quota Error?](exceeded-quota-error.md)
 
 ### Settings
 * [Why aren't my settings saving?](settings-saving.md)
