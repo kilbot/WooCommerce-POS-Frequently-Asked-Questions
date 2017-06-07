@@ -45,6 +45,14 @@ For the best experience we recommend the [free Stripe gateway](https://wordpress
             <td style="text-align:center;background-color:#d9534f;font-size:1.5em;">✘</td>
             <td style="text-align:center;">2.x</td>
         </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://woocommerce.com/products/worldpay/">WooCommerce WorldPay Gateway</a><br>
+                by Add On Enterprises 
+            </td>
+            <td style="text-align:center;background-color:#d9534f;font-size:1.5em;">✘</td>
+            <td style="text-align:center;">4.x</td>
+        </tr>
         
     </tbody>
 </table>
