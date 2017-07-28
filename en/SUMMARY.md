@@ -1,6 +1,7 @@
 # Table of Contents
 
 ### Hardware
+* [What card readers are compatible with WooCommerce POS?](compatible-card-readers.md)
 * [What receipt printers are compatible with WooCommerce POS?](compatible-receipt-printers.md)
 * [What barcode scanners are compatible with WooCommerce POS?](compatible-barcode-scanners.md)
 
