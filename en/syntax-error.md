@@ -1,4 +1,2 @@
----
-title: Why am I getting a SyntaxError?
----
+# syntax-error
 
