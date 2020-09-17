@@ -1,3 +1,2 @@
-# [faq.wcpos.com](http://faq.wcpos.com)
+# Initial page
 
-Frequently asked questions for WooCommerce POS
